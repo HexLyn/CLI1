@@ -3,8 +3,7 @@ package CLI.V5.command;
 
 import CLI.V5.command.Command;
 import CLI.V5.domain.StudentScores;
-import CLI.V5.command.Command;
-import CLI.V5.domain.StudentScores;
+
 
 public class PrintScoreCommand  implements Command {
     StudentScores studentScores = StudentScores.getInstance();

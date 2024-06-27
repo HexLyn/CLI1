@@ -3,9 +3,6 @@ package CLI.V5.command;
 import CLI.V5.Input;
 import CLI.V5.command.Command;
 import CLI.V5.domain.StudentScores;
-import CLI.V5.Input;
-import CLI.V5.command.Command;
-import CLI.V5.domain.StudentScores;
 
 public class GetScoresCommand  implements Command {
     StudentScores studentScores = StudentScores.getInstance();
