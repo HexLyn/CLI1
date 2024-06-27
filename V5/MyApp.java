@@ -1,14 +1,11 @@
 package CLI.V5;
 
-<<<<<<< HEAD
 import CLI.V5.command.*;
 import CLI.V5.ui.Menu;
 import CLI.V5.ui.MenuItem;
-=======
-import CLI.V4.command.*;
-import CLI.V4.ui.Menu;
-import CLI.V4.ui.MenuItem;
->>>>>>> f60a5d9e739133a5305d163fa823c89059a31ed5
+import CLI.V5.command.*;
+import CLI.V5.ui.Menu;
+import CLI.V5.ui.MenuItem;
 
 public class MyApp extends App {
     @Override
