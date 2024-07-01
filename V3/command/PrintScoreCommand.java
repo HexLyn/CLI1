@@ -1,6 +1,5 @@
 package CLI.V3.command;
 
-
 import CLI.V3.domain.StudentScores;
 
 public class PrintScoreCommand  implements Command {

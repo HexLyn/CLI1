@@ -23,6 +23,7 @@ public class App {
     public void run() {
         while(true) {
             menu.printMenu();
+//            getSelect는 int를 반환하는 메소드기 때문에 바로 받아와서 처리
             int selectNo = menu.getSelect();
             executeCommand(selectNo);
         }
