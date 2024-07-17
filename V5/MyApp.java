@@ -18,7 +18,10 @@ public class MyApp extends App {
     }
 
     public static void main(final String[] args) {
+//        App은 추상클래스기 때문에 구현 클래스인 MyApp으로 객체를 생성해줘야 한다.
         App app = new MyApp();
+//        템플릿으로 정해져 있는 메소드는 부모클래스에 구현한다.
+//         => 템플릿 패턴
         app.init(5);
         app.run();
     }

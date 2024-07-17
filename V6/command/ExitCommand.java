@@ -1,6 +1,5 @@
 package CLI.V6.command;
 
-import CLI.V6.command.Command;
 
 public class ExitCommand implements Command {
     @Override

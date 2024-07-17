@@ -1,7 +1,6 @@
 package CLI.V6.command;
 
 import CLI.V6.Input;
-import CLI.V6.command.Command;
 import CLI.V6.domain.StudentScores;
 
 public class InitScoresCommand implements Command {

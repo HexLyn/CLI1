@@ -1,6 +1,5 @@
 package CLI.V5.command;
 
-import CLI.V5.command.Command;
 
 
 public class ExitCommand implements Command {

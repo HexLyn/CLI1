@@ -1,7 +1,6 @@
 package CLI.V5.ui;
 
 import CLI.V5.command.Command;
-import CLI.V5.command.Command;
 
 public class MenuItem {
     String title;

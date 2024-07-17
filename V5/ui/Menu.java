@@ -2,8 +2,6 @@ package CLI.V5.ui;
 
 import CLI.V5.Input;
 import CLI.V5.command.Command;
-import CLI.V5.Input;
-import CLI.V5.command.Command;
 
 public class Menu {
     MenuItem[] menus;
