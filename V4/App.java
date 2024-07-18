@@ -3,6 +3,11 @@ package CLI.V4;
 import CLI.V4.command.*;
 import CLI.V4.ui.*;
 
+// V4의 변화
+// 1. 메뉴를 주입(injection)을 통해 구성
+// 2. MenuItem 클래스로 메뉴 타이틀과 Command를 캡슐화
+
+
 public class App {
     Menu menu;
 

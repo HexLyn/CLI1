@@ -12,6 +12,7 @@ public class PrintScoreCommand  implements Command {
         int [] scores = studentScores.getScores();
 
 //        점수 리스트를 돌면서 각각의 점수들을 출력.
+//        0부터 scores 배열의 길이만큼 반복. => 모든 점수 출력.
         for(int i = 0; i < scores.length; i++) {
             System.out.println("scores ["+ i + "]: "+ scores[i]);
         }

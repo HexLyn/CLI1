@@ -17,7 +17,6 @@ public class Menu {
     public void add(int ix, MenuItem item) {
         menus[ix] = item;
     }
-
     public void printMenu() {
         System.out.println("mmmmmmmmmmmmmmmmmmmmmm");
         for (int i = 0; i < menus.length; i++) {
